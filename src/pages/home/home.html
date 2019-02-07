@@ -1,14 +1,29 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      ComputerScience Friend
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+    <ion-card>
+        <ion-card-content style="text-align:center;padding:0px" >
+
+              <ion-img width="300" height="200px" src="https://raw.githubusercontent.com/604234031cs/dataFriend/master/comsci_eiei.jpg" ></ion-img>
+  
+        </ion-card-content>
+      </ion-card>
+            
+
+            <ion-list>
+              <ion-item> 
+                  <ion-icon name="contact" item-start></ion-icon>
+                Comsci Room A
+                  <button ion-button clear icon-only item-end (click)="showFriendList('Comsci Room A')">
+                    <ion-icon name="open" ></ion-icon>
+                </button>
+              </ion-item>   
+            </ion-list>       
 </ion-content>
+
