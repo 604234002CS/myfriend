@@ -28,7 +28,7 @@
     "nickName": "Ake",
     "faculty": "Science And Technology",
     "major": "ComputerScience",
-    "birthDay": "1999-04-29",
+    "birthday": "1999-04-29",
     "picture" : "https://raw.githubusercontent.com/604234031cs/dataFriend/master/ionic_3.jpg",
     "classroom": "Comsci Room A"  
   }
